@@ -42,4 +42,9 @@ output "sample_text1"{
   value.      = "null"
 }
 
+output "sample_text2"{
+  description = "null"
+  value.      = "null"
+}
+
 ```
