@@ -32,4 +32,14 @@ output "public_ip" {
   value       = aws_instance.example_instance.public_ip
 }
 
+output "sample_text"{
+  description = "This is a sample text for my testing"
+  value       = "sample"
+}
+
+output "sample_text1"{
+  description = "null"
+  value.      = "null"
+}
+
 ```
