@@ -37,4 +37,9 @@ output "sample_text"{
   value       = "sample"
 }
 
+output "sample_text1"{
+  description = "null"
+  value.      = "null"
+}
+
 ```
